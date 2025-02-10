@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+header {}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 5px;
+
+}
+
+.container {
+    display: flex;
+    background-color: red;
+
+}
+
+.container h3 {
+    color: white;
+    padding: 10px;
+
+}
+
+.inside-container {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+.inside-container:hover {
+    background-color: black;
+}
+
+img {
+    width: 70%;
+
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.list a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.list a:hover {
+    background-color: red;
+    color: white;
+}
+
+.select {
+    border: none;
+    font-size: 1rem;
+}
+
+select:hover {
+    background-color: red;
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+.select option {
+    background-color: black;
+    color: white;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.section2 {
+    display: flex;
+    width: 100%;
+}
+
+.sec2-content {
+    width: 45%;
+    margin-left: 80px;
+}
+
+.sec2-content h1 {
+    font-size: 40px;
+}
+
+.sec2-content p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sec2-content1 {
+    width: 55%;
+
+}
+
+.sec2-content1 h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sec2-content1 p {
+    font-size: 25px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40vh;
+    height: 100%;
+    margin-left: 80px;
+
+}
+
+.card-img {
+    width: 100px;
+    margin-left: 35%;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.card p {
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+#text {
+    font-weight: bold;
+    color: black;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.section3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.Trending-course {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.course-card {
+    width: 25%;
+    height: auto;
+    border: 1px solid white;
+
+}
+
+.course-card h1 {
+    padding: 20px;
+
+}
+
+.course-card p {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+.address-bar {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.adress-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address-about {
+    width: 40%;
+
+}
+
+.address-about img {
+    width: 80%;
+}
+
+.address-about p {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.address-course {
+    color: red;
+}
+
+.address-contact {
+    width: 40%;
+    color: white;
+}
+
+#h1 {
+    color: red;
+}
+
+.address-contact p {
+    color: white;
+    text-align: justify;
+}
+
+.course-list {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.course-list li {
+    padding: 10px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+ padding: 20px;
+ margin-left: 10px;
+}
+.sec4-list{
+    list-style:disc;
+   font-size: 20px;
+}
+.sec4-content h1{
+    font-size: 30px;
+    text-align: justify;
+}
+.sec4-content1 h1{
+    font-size: 30px;
+    text-align: center;
+}
+.section5{
+    width:100%;
+    background-color: whitesmoke;
+
+}
+.sec5-content{
+    padding:20px;
+}
+.sec5-h1{
+    font-size: 40px;
+    text-align: center;
+}
+.sec5-container{
+border: 1px solid black;
+border-radius: 40px;
+width:70%;
+display: flex;
+justify-content: center;
+margin-left:15%;
+gap:20px;
+padding:10px;
+}
+.sec5-card{
+border: 1px solid black;
+background-color: black;
+border-radius: 40px;
+color:white;
+padding: 10px;
+width:auto;
+}
+.sec5-card:hover{
+    background-color: red;
+}
+footer {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    font-size: 100px;
+}
+#a1{
+    font-size: 50px;
+   
+}
+
+.section6{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.sec6-h1{
+font-size: 40px;
+}
+.sec6-card {
+    width: 25%;
+    height: auto;
+    border: 1px solid black;
+}
+.sec6-card img{
+    width:100%;
+}
+.section7{
+    background-color: whitesmoke;
+    width: 100%;
+text-align: center;
+}
+.sec7-content{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.section7 h1{
+    font-size: 40px;
+}
+.sec7-content img{
+    width:20%;
+    border-radius: 20px;
+}
+.section8{
+background-color: white;
+height: auto;
+}
+.sec8-content{
+display: flex;
+padding: 20px;
+}
+.sec8-content img{
+    width:15%;
+    margin-left: 40px;
+}
+.sec8-content p{
+    padding: 25px;
+    font-size: 25px;
+}
